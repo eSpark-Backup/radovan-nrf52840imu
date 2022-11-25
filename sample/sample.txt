@@ -1,0 +1,2 @@
+Sample project will be kept here, any reference github repo / libraries that should be required by user in order to
+build the repository
