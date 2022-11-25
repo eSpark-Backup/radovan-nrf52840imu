@@ -1,0 +1,92 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="173" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="motion_sensor" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="motion_sensor" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="motion_sensor" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="motion_sensor" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="motion_sensor"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;Application"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;Board Definition"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;Board Support"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;mpu9250_driver"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;nRF_Drivers"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;nRF_Libraries"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;sensor_data"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;timer_driver"/>
+  <ProjectSessionItem path="motion_sensor;motion_sensor;usb_driver"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="motion_sensor" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="motion_sensor" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="motion_sensor" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="motion_sensor" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never">
+   <Watchpoint expression="yaw" name="yaw" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="pitch" name="acc_pitch" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="acc_values" name="acc_values" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="heading" name="heading" radix="16" linenumber="0" filename=""/>
+   <Watchpoint expression="sensor_data" name="sensor_data" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="yaw_res" name="yaw_res" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="pitch_res" name="pitch_res" radix="-1" linenumber="0" filename=""/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="172" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="164" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="50" y="190" useTextEdit="1" openedFrom="D:/Work/MotionSensor/Code/jc_dk/Source_Code/Motion_Sensor/Project_Folder/pca10056/motion_sensor/ses/mpu9250_driver/app_mpu9250.c" useBinaryEdit="0" left="0" path="mpu9250_driver/nrf_drv_mpu9250_twi.c" selected="0" top="190" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="64" y="82" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="mpu9250_driver/nrf_drv_mpu9250_twi.h" selected="0" top="65" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="D:/Work/MotionSensor/Code/jc_dk/Source_Code/Motion_Sensor/Project_Folder/main.c" useBinaryEdit="0" left="0" path="mpu9250_driver/app_mpu9250.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="131" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="mpu9250_driver/mpu9250_register_map.h" selected="0" top="122" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="86" useTextEdit="1" openedFrom="D:/Work/MotionSensor/Code/jc_dk/Source_Code/Motion_Sensor/Project_Folder/main.c" useBinaryEdit="0" left="0" path="mpu9250_driver/app_mpu9250.h" selected="0" top="75" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="50" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/hardfault/nrf52/handler/hardfault_handler_gcc.c" selected="0" top="37" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="56" y="65" useTextEdit="1" openedFrom="D:/Work/MotionSensor/Code/jc_dk/Source_Code/Motion_Sensor/Project_Folder/main.c" useBinaryEdit="0" left="0" path="timer_driver/timer_driver.c" selected="0" top="48" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="7" useTextEdit="1" openedFrom="D:/Work/MotionSensor/Code/jc_dk/Source_Code/Motion_Sensor/Project_Folder/pca10056/motion_sensor/ses/timer_driver/timer_driver.c" useBinaryEdit="0" left="0" path="timer_driver/timer_driver.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1335" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/usbd/app_usbd.c" selected="0" top="1323" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="219" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="usb_driver/usbd_drv.c" selected="0" top="207" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="51" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="mpu9250_driver/common.c" selected="0" top="7" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="47" y="12" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="mpu9250_driver/common.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="167" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/atomic_fifo/nrf_atfifo.c" selected="0" top="155" codecName=""/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="motion_sensor" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/Work/MotionSensor/Code/jc_dk/Source_Code/Motion_Sensor/Project_Folder/pca10056/motion_sensor/ses/mpu9250_driver" debugSearchPath="" autoConnectCapabilities="3711"/>
+</session>
