@@ -189,7 +189,7 @@ int main(void)
 
         /* Every 500msec, f_Send flag set to true */
         uint32_t currentTime = quaternion_filter_get_us_count();
-        if((currentTime-previousTime) >= 10000){
+        if((currentTime-previousTime) >= 12000){
           previousTime=currentTime;
           //send_dummy_data(); //send dummy data on USB COM Port
           //GetSensorData();     //send sensor data on USB Port

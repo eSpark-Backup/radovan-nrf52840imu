@@ -11,7 +11,7 @@ void quaternion_filter_timer_event_handler(nrf_timer_event_t event_type, void* p
     switch (event_type)
     {
         case NRF_TIMER_EVENT_COMPARE0:
-            quaternion_us_count+=100;
+            quaternion_us_count+=interrupt_time_us;
             break;
 
         default:
@@ -22,7 +22,7 @@ void quaternion_filter_timer_event_handler(nrf_timer_event_t event_type, void* p
 
 void quaternion_filter_timer_init(void) {
 
-    uint32_t time_us = 100; //Time(in miliseconds) between consecutive compare events.
+    uint32_t time_us = interrupt_time_us; //Time(in miliseconds) between consecutive compare events.
     uint32_t time_ticks;
     uint32_t err_code = NRF_SUCCESS;
 
